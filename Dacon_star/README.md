@@ -66,8 +66,6 @@ for i in all_data.index:
 ## 
 #### 최종 순위 및 느낀 점, 보완할 점
 * 69 / 729
-* 딥러닝을 사용하여 결승까지는 진출했으나, 역시나 최상위권은 LightGBM, XGBoost 등의 트리 기반 Gradient Boosting 방식 머신러닝이 차지함
-  - 딥러닝의 미래는...?
-* seed 값을 두 개 이상 사용하여 평균 살펴볼 것
-* 하드웨어가 버텨준다면 StratifiedKFold 사용할 것
-* 1등 참가자가 중요시한 Feature Engineering 에 대해 공부할 것
+* 딥러닝을 사용하여 결승까지는 진출했으나, 역시나 최상위권은 LightGBM, XGBoost 등의 머신러닝이 차지함
+* 하드웨어가 버텨준다면 seed 두 개 이상 사용하거나, StratifiedKFold 사용할 것
+* 1등 참가자가 중요시한 Feature Engineering 공부할 것
